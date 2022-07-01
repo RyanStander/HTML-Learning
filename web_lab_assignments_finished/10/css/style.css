@@ -1,0 +1,147 @@
+@import 'https://fonts.googleapis.com/css?family=Copse';
+
+body, div, nav, ul, li, p, h1, h2{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background-repeat: repeat;
+	background-image: url('../images/body-bg.jpg');
+}
+
+body{
+	font-size: 15px;
+	line-height: 150%;
+	font-family: Georgia,"Times New Roman",Times,serif;
+
+	background-repeat: no-repeat, no-repeat;
+	background-position: center top, center bottom;
+	background-image: url('../images/top-bg.jpg'), url('../images/bottom-bg.jpg');
+}
+
+h1{
+	margin: 0 0 10px 0;
+
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 125%;
+	font-family: "Copse",Georgia,serif;
+	text-shadow: 0 2px 0 #fcf9ee, 0 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+	width: 1140px;
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 0 0 10px 0;
+}
+
+.header{
+	width: 180px;
+	position: fixed;
+	margin: 80px 0 0 0;
+
+	text-align: right;
+
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-image: url('../images/header-bg.png');
+}
+
+.header h1 a{
+	color: #603913;
+	font-size: 32px;
+	line-height: 100%;
+	text-transform: lowercase;
+	font-family: "Copse",Georgia,serif;
+}
+
+.header ul{
+	list-style-type: none;
+}
+
+.header nav h1{
+	display: none;
+}
+
+.header nav a{
+	color: #8f0206;
+	font-size: 14px;
+	line-height: 100%;
+	text-decoration: none;
+}
+
+.header nav a:hover{
+	color: #57320e;
+	border-color: #d1cb7d;
+	background-color: #f5ec82;
+}
+
+.header h2{
+	padding: 0 0 10px 0;
+	margin: 10px 0 10px 0;
+
+	color: #886c4d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 120%;
+	font-style: italic;
+	border-bottom: 1px dashed #888888;
+	font-family: Baskerville,"Times New Roman",Times,serif;
+}
+
+.main{
+	padding: 100px 0 0 225px;
+}
+
+.main div{
+	margin: 0 0 20px 0;
+	border-bottom: 1px dashed #888888;
+}
+
+.main h1 a{
+	color: #8f0206;
+}
+
+.main p:not(.meta) a{
+	color: #834202;
+	background-color: #f7f3c5;
+	border-bottom: 1px solid #cfcebe;
+}
+
+.main p a:hover{
+	color: #57320e;
+	border-color: #d1cb7d;
+	background-color: #f5ec82;
+}
+
+.meta{
+	margin: 0 0 12px;
+
+	color: #bbbab1;
+	font-size: 13.5px;
+	line-height: 130%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.meta a{
+	color: #6e6d67;
+	border-bottom: 1px solid #d0cfc7;
+}
+
+.date{
+	color: #949289;
+	font-weight: bold;
+}
+
+.tag{
+	font-size: 12.8px;
+	font-style: italic;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	text-transform: lowercase;
+}

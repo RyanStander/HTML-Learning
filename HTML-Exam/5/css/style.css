@@ -1,0 +1,10 @@
+/*  You are only allowed to use the following selectors */
+section{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    margin: 10px;
+}

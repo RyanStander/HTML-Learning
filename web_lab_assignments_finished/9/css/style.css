@@ -1,0 +1,91 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+body, div, nav, ul, li, p, h1, h2{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F5EBDA;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper{
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.mainNavigation{
+	margin: 32px 0 48px 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.mainNavigation ul{
+	margin: 0 0 -1px 0;
+	list-style-type: none;
+}
+
+.mainNavigation ul li{
+	padding: 10px;
+	display: inline-block;
+}
+
+.mainNavigation li.active{
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+.mainNavigation li a{
+	padding: 0 10px 0 10px;
+
+	font-weight: 300;
+	color: #822209;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.mainNavigation li a:hover{
+	text-decoration: underline;
+}
+
+article{
+	margin: 0 0 32px 0;
+}
+
+h1{
+	margin: 0 0 0 0;
+
+	color: #424242;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+h2{
+	margin: 0 0 32px 0;
+
+	color: #424242;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+p{
+	margin: 0 0 16px 0;
+}
+
+article img{
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.footerNavigation ul{
+	list-style-type: none;
+}
+
+.footerNavigation ul li{
+	display: inline;
+	margin: 0 10px 0 10px;
+}

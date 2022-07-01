@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Old+Standard+TT:400,700,400italic');
+
+body{
+	margin: 0 0 0 0;
+	background-color: #efede0;
+	font-family: 'Old Standard TT', serif;
+}
+
+article{
+	background-color: #ffffff;
+	width: 500px;
+	margin: 50px 50px 50px 50px;
+	padding: 40px 20px 20px 20px;
+}
+
+h1{
+	font-family: 'Cabin', sans-serif;
+	margin: 0 0 20px 0;
+	color: #333333;
+}
+
+h1 + p, p:last-child{
+	font-size: 12px;
+}
+
+/*
+alternative: use a separate class (for instance .small) on the <p> element. 
+
+.small{
+	font-size: 12px;
+}
+*/
+
+p{
+	margin: 10px 0 10px 0;
+}
+
+a{
+	color: #e65c00;
+}
+
+a:hover{
+	text-decoration: none;
+}

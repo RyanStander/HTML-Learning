@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto');
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-family: 'Bitter', sans-serif;
+}
+
+header{
+	padding: 20px 0 0 0;
+	background-image: url('../images/1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: #ffffff;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header nav a{
+	color: #8c8c8c;
+	font-size: 12px;
+	margin: 0 30px 0 30px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	color: #000000;
+}
+
+header nav h1{
+	display: none;
+}
+
+header h1{
+	margin: 40px 0 0 0;
+}
+
+header h2{
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0 0 60px 0;
+}
+
+main{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+main article{
+	width: 320px;
+	margin: 24px auto;
+}
+
+main h1{
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 45px;
+	margin: 0 0 24px 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+main p{
+	font-size: 15px;
+	line-height: 26px;
+	margin: 0 0 24px 0;
+}
+
+.titleArtLevelOne{
+	font-size: 32px;
+}
+
+.titleArtLevelTwo{
+	font-size: 32px;
+}
+
+.titleArtLevelThree{
+	font-size: 21px;
+}
+
+footer{
+	background-image: url('../images/bgfooter.gif');
+	background-repeat: repeat-x;
+	background-position: center top;
+
+	padding: 30px 0 80px 0;
+	text-align: center;
+}
+
+footer input{
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	padding: 6px 8px 6px 8px;
+	font-size: 10px;
+	text-transform: uppercase;
+	width: 220px;
+}
+
+footer button{
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	padding: 6px 4px 6px 4px;
+	margin: 0 0 0 4px;
+	font-size: 10px;
+	text-transform: uppercase;
+}

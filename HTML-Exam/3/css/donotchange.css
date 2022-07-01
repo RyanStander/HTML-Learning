@@ -1,0 +1,47 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #EEE;
+}
+
+header{
+    border-radius: 20px 20px 0 0;
+    background-color: #666;
+    height:50px;
+}
+header img{
+    float:right;
+}
+nav{
+    margin-left:20px;
+    border-radius: 10px 0px 10px 10px;
+    width:300px;
+    overflow:auto;
+    -webkit-box-shadow: 11px 11px 9px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 11px 9px -9px rgba(0,0,0,0.75);
+    box-shadow: 11px 11px 9px -9px rgba(0,0,0,0.75);
+}
+
+nav .btn0{
+    border-radius: 10px 0px 0px 0px;
+}
+nav .btn1{
+}
+nav .btn2{
+}
+nav .btn3{
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav a{
+    background-color: #E0E0E0;
+    border: solid #888;
+    border-width: 1px;
+    font-size: 16px;
+    color:#666;
+    text-decoration: none;
+}

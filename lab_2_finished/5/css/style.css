@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans:400,700');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body>header{
+	background-color: #000000;
+}
+
+body header section{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+body header h1 {
+	float: left;
+	margin: 0 22px 0 0;
+}
+
+body header p{
+	color: #595959;
+}
+
+body header section nav{
+	padding: 22px 0 22px 22px;
+}
+
+body header nav a{
+	color: #595959;
+	border-right: 1px solid #595959;
+	padding: 0 8px 2px 3px;
+}
+
+body header nav a:last-child{
+	border-right: none;
+}
+
+body header nav a:hover{
+	color: #FFFFFF;
+}
+
+article{
+	width: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+video{
+	width: 100%;
+	margin: 36px 0 36px 0;
+}
+
+article header img{
+	margin: 0 10px 0 0;
+	float: left;
+	border-radius: 50%;
+}
+article header img + p{
+	color: #737373;
+	font-weight: bold;
+}
+
+article header p{
+	margin: 0 0 0 0;
+	line-height: 30px;
+}
+
+aside{
+	float: left;
+	width: 300px;
+	margin: 18px 20px 0 0;
+}
+
+article aside h2{
+	font-size: 20px;
+	margin: 0 0 10px 0;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+article aside ul{
+	list-style-type: none;
+}
+
+article aside li{
+	border-top: 1px solid #d9d9d9;
+	padding: 10px 0 10px 0;
+}
+
+article h1{
+	margin: 18px 0 18px 0;
+	font-size: 64px;
+	font-weight: 400;
+}
+
+p{
+	margin: 18px 0 0 0;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+cite{
+	font-style: normal;
+	font-weight: bold;
+}
+
+a{
+	color: #006598;
+}
+
+a:hover{
+	text-decoration: none;
+}

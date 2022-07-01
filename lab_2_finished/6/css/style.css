@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Georgia', serif;
+	background-color: #e5e4e4;
+}
+
+header {
+	background-color: #000000;
+}
+
+header h1 {
+	padding: 30px 50px 10px 50px;
+	background-color: #df5b57;
+	text-align: right;
+}
+
+.membership {
+	height: 600px;
+	background-image: url('../images/main.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.centered{
+	margin: 0 auto 0 auto;
+	padding: 180px 0 0 0;
+	width: 470px;
+	color: #FFFFFF;
+	font-family: 'Bree Serif', serif;
+}
+
+.centered h1 {
+	margin: 0 0 0 0;
+	font-size: 40px;
+}
+
+.centered p {
+	margin: 20px 0 0 0;
+	font-size: 22px;
+}
+
+.centered a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.centered a:hover {
+	color: #fffcd9;
+}
+
+.introduction {
+	margin: -120px auto 0;
+	width: 660px;
+}
+
+.introduction h1 {
+	float: left;
+	padding: 0 12px 0 12px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.introduction p {
+	clear: both;
+	padding: 32px 40px 30px 32px;
+	background-color: #df5b57;
+	line-height: 28px;
+	font-family: 'Georgia', serif;
+}
+
+.introduction div{
+	text-align: right;
+}
+
+.introduction div a{
+	float: right;
+	padding: 0 32px 0 36px;
+	background-color: #000000;
+	color: #df5b57;
+	line-height: 64px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.introduction div a:hover {
+	color: #fffcd9;
+}
+
+main article{
+	background-color: #FFFFFF;
+	width: 900px;
+	margin: 104px auto 40px auto;
+	padding: 30px 0;
+}
+
+main article h1{
+	color: #df5b57;
+	font-family: 'Bree Serif', serif;
+	font-size: 35px;
+	line-height: 1.2;
+	margin: 30px 0 35px 0;
+	padding: 0 0 50px 85px;
+	border-bottom: 70px solid #df5b57;
+}
+
+main article p{
+	color: #000000;
+	font-size: 17px;
+	line-height: 1.8;
+	padding: 0 0 0 0;
+
+	margin: 30px 120px 35px 120px;
+}

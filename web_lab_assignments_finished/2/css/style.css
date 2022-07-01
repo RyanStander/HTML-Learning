@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 2000px;
+	background-image: url('../images/bg.jpg');
+	background-repeat: repeat;
+}
+
+section{
+	position: fixed;
+	width: 300px;
+	padding: 40px;
+	margin: 50px 50px;
+	text-align: center;
+	background-color: #FFFFFF;
+}

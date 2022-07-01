@@ -1,0 +1,19 @@
+/*
+Use the following colors:
+blue = blue
+green = green
+red = red
+*/
+
+h1 ~ p {
+  background-color: red;
+}
+.second > p{
+    background-color: green;
+}
+.third p:first-child{
+    background-color: blue;
+}
+.third p:nth-last-child(2){
+    background-color: blue;
+}
